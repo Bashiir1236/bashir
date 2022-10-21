@@ -1,0 +1,396 @@
+.header {
+    padding: 6px;
+    color: rgb(88, 88, 245);
+    background-color: white;
+    display: flex;
+}
+
+.header .logo {
+    margin-left: 5%;
+}
+
+.header ul {
+    display: flex;
+    list-style: none;
+    color: rgb(19, 14, 14);
+    margin-left: 8%;
+    margin-top: -3px;
+}
+
+.header ul li {
+    position: relative;
+}
+
+.header ul li a {
+    text-decoration: none;
+    display: block;
+    font-size: 25px;
+    padding: 10px;
+    color: rgb(16, 13, 13);
+}
+
+.header ul .group {
+    display: flex;
+    padding: 6px;
+    margin-top: -5px;
+}
+
+.header ul .group .login {
+    color: rgb(137, 47, 234);
+}
+
+.header ul .group li .btn a {
+    color: rgb(240, 248, 251);
+    padding: 6px;
+    background-color: rgb(88, 88, 208);
+    border: 1px solidrgb(88, 88, 208);
+    border-radius: 10%;
+}
+
+.header ul .group li .eng {
+    margin-left: 25%;
+}
+
+.container {
+    width: 100%;
+    height: 500px;
+    background-color: white;
+    display: flex;
+}
+
+.container .text {
+    width: 50%;
+    margin-left: 5%;
+}
+
+.container .normal {
+    font-size: 18px;
+    align-items: center;
+    width: 80%;
+    color: #faf8f9;
+    background-color: rgb(71, 164, 107);
+    text-align: center;
+    margin-top: 25%;
+}
+
+.container .text .qoral {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.container .image {
+    position: relative;
+    width: 50%;
+    height: 10px;
+    margin-top: 12%;
+}
+
+.container .image img {
+    width: 500px;
+    height: 400px;
+    margin-top: -8%;
+}
+
+.container .text .start form input {
+    padding: 5px;
+    font-size: 20px;
+    border-color: 1px solid white;
+    border-radius: 10%;
+    width: 50%;
+    margin-top: 5%;
+}
+
+.container .text .start button {
+    cursor: pointer;
+    padding: 15px;
+    margin-right: 10%;
+    border-color: rgb(74, 74, 176);
+    background: rgb(74, 74, 176);
+    width: 20%;
+    border-radius: 20%;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+}
+
+.global {
+    margin-top: 5%;
+    text-align: center;
+}
+
+.global .main-text {
+    font-size: 25px;
+}
+
+.global .sub-text {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: -20px;
+}
+
+.boxes {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+.boxes .box1 {
+    width: 65%;
+    height: 400px;
+    margin-left: 10px;
+    border: 1px solid rgb(230, 214, 214);
+}
+
+.boxes .box1 .color {
+    background-color: rgb(225, 232, 225);
+    width: 70%;
+    margin: 10%;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.boxes .box1 .color img {
+    align-items: center;
+    margin-left: 25%;
+}
+
+.boxes .box1 h1 {
+    font-size: 25px;
+    margin-top: 20%;
+}
+
+.boxes .box1 p {
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.boxes .box2 {
+    width: 65%;
+    margin-left: 10px;
+    border: 1px solid rgb(230, 214, 214);
+}
+
+.boxes .box2 .color {
+    background-color: rgb(171, 183, 189);
+    width: 70%;
+    margin: 10%;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.boxes .box2 .color img {
+    align-items: center;
+    margin-left: 25%;
+}
+
+.boxes .box2 h1 {
+    font-size: 25px;
+    margin-top: 20%;
+}
+
+.boxes .box2 p {
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.boxes .box3 {
+    width: 65%;
+    margin-left: 10px;
+    border: 1px solid rgb(230, 214, 214);
+}
+
+.boxes .box3 .color {
+    background-color: rgb(153, 166, 153);
+    width: 70%;
+    margin: 10%;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.boxes .box3 .color img {
+    align-items: center;
+    margin-left: 25%;
+}
+
+.boxes .box3 h1 {
+    font-size: 25px;
+    margin-top: 20%;
+}
+
+.boxes .box3 p {
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.sell {
+    width: 100%;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    height: 1000px;
+}
+
+.sell .img {
+    width: 100%;
+    height: 500px;
+    margin-left: 5%;
+    margin-right: 2%;
+}
+
+.sell .img .color img {
+    width: 500px;
+    height: 600px;
+    margin-left: 7%;
+    margin: 5%;
+}
+
+.sell .main_text {
+    width: 100%;
+    margin-right: 5%;
+    margin-left: 2%;
+    color: black;
+    height: 600px;
+    margin-top: 5%;
+}
+
+.sell .main_text .main_box {
+    text-align: center;
+}
+
+.sell .main_text h1 {
+    margin-left: 3%;
+}
+
+.sell .main_text p {
+    margin-left: 3%;
+    font-size: 15px;
+}
+
+.sell .main_text .time {
+    display: flex;
+    justify-content: space-between;
+    margin: 8%;
+}
+
+.sell .main_text .time .days {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.sell .main_text .time .days .box {
+    border: 1px solid rgb(220, 232, 220);
+    width: 80px;
+    margin: 6%;
+}
+
+.sell .main_text .time .hour .box {
+    border: 1px solid rgb(220, 232, 220);
+    width: 80px;
+    margin: 6%;
+}
+
+.sell .main_text .time .minute .box {
+    border: 1px solid rgb(220, 232, 220);
+    width: 80px;
+    margin: 6%;
+}
+
+.sell .main_text .time .second .box {
+    border: 1px solid rgb(220, 232, 220);
+    width: 80px;
+    margin: 6%;
+}
+
+.sell .main_text .sub-box {
+    border: 1px solid rgb(249, 247, 243);
+    height: 100px;
+    width: 350px;
+    margin-left: 10%;
+    background-color: rgb(249, 247, 243);
+}
+
+.sell .main_text .sub-box {
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sell .main_text .sub-box .text-box p {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.sell .main_text .sub-box .text-box h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.sell .main_text .sub-box .text-box1 p {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.sell .main_text .sub-box .text-box1 h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-right: 5%;
+}
+
+.sell .main_text .sub-text {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10%;
+}
+
+.sell .main_text .sub-text p {
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 5%;
+}
+
+.sell .main_text .sub-text h3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-right: 20%;
+}
+
+.sell .main_text .buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.sell .main_text .buttons .btn1 {
+    padding: 3.5%;
+    color: white;
+    background-color: rgb(129, 195, 64);
+    cursor: pointer;
+    border: 1px solid rgb(129, 195, 64);
+    margin-left: 6%;
+    border-radius: 15%;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.sell .main_text .buttons .btn1:hover {
+    background-color: rgb(28, 24, 24);
+}
+
+.sell .main_text .buttons .btn2 {
+    padding: 3.5%;
+    color: white;
+    background-color: rgb(78, 28, 158);
+    cursor: pointer;
+    border: 1px solid rgb(78, 28, 158);
+    margin-left: 6%;
+    border-radius: 15%;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.sell .main_text .buttons .btn2:hover {
+    background-color: rgb(28, 24, 24);
+}
+
+.sell .main_text .img {
+    margin-top: 3%;
+}
